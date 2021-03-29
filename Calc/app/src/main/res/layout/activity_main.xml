@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,7 +17,7 @@
         android:ems="10"
         android:gravity="right|center"
         android:inputType="textPersonName"
-        android:text="0"
+        android:text=""
         android:textSize="40pt" />
 
     <TableLayout
@@ -74,6 +75,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="7"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -83,6 +85,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="8"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -92,6 +95,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="9"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -113,6 +117,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="4"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -122,6 +127,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="5"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -131,6 +137,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="6"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -153,6 +160,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="1"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -162,6 +170,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="2"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -171,6 +180,7 @@
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
                 android:text="3"
+                android:onClick="numberEvent"
                 android:textSize="10pt"></Button>
 
             <Button
@@ -188,25 +198,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
+
         <Button
             android:id="@+id/buNum0"
-            android:layout_width="30pt"
+            android:layout_width="8pt"
             android:layout_height="30pt"
-            android:layout_weight="1"
-            android:text="0"
             android:layout_marginRight="2pt"
+            android:layout_weight="2"
+            android:text="0"
+            android:onClick="numberEvent"
             android:textSize="10pt"></Button>
+
         <Button
             android:id="@+id/buDot"
-            android:layout_width="30pt"
+            android:layout_width="8pt"
             android:layout_height="30pt"
-            android:layout_weight="1"
-            android:text="\."
             android:layout_marginRight="2pt"
+            android:layout_weight="2"
+            android:text="\."
             android:textSize="10pt"></Button>
         <Button
             android:id="@+id/buEqual"
-            android:layout_width="30pt"
+            android:layout_width="16pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:text="="
