@@ -35,7 +35,7 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
-                android:onClick="boardClear"
+                android:onClick="clearBoard"
                 android:text="AC"
                 android:textSize="10pt"></Button>
 
@@ -55,6 +55,7 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="2pt"
                 android:layout_weight="1"
+                android:onClick="divOperation"
                 android:text="/"
                 android:textSize="10pt"></Button>
 
@@ -63,6 +64,7 @@
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
+                android:onClick="mulOperation"
                 android:text="*"
                 android:textSize="10pt"></Button>
         </TableRow>
@@ -105,6 +107,7 @@
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
+                android:onClick="modOperation"
                 android:text="%"
                 android:textSize="10pt"></Button>
         </TableRow>
@@ -219,6 +222,7 @@
             android:layout_height="30pt"
             android:layout_marginRight="2pt"
             android:layout_weight="2"
+            android:onClick="dotCharacter"
             android:text="\."
             android:textSize="10pt"></Button>
 

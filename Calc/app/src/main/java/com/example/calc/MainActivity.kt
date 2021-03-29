@@ -20,13 +20,15 @@ class MainActivity : AppCompatActivity() {
         var editText =  findViewById<EditText>(R.id.editText)
         var button_select = view as Button;
         var boardNewText =  editText.text.toString().plus(button_select.text);
+
+
         editText.setText( boardNewText )
     }
 
     fun setBoard(value:String){
         findViewById<EditText>(R.id.editText).setText(value)
     }
-    fun boardClear(view: View) {
+    fun clearBoard(view: View) {
         var editText =  findViewById<EditText>(R.id.editText)
         editText.setText("")
     }
@@ -54,11 +56,29 @@ class MainActivity : AppCompatActivity() {
         setBoard( this.mathFormula.plus('-') )
     }
 
+    fun divOperation(view: View) {
+        saveText(view)
+        setBoard( this.mathFormula.plus('/') )
+    }
+
+    fun mulOperation(view: View) {
+        saveText(view)
+        setBoard( this.mathFormula.plus('*') )
+    }
+
+    fun modOperation(view: View) {
+        saveText(view)
+        setBoard( this.mathFormula.plus('%') )
+    }
+
     fun calculateFormula(view: View) {
         saveText(view)
         setBoard( Expressions() .eval(mathFormula).toString())
         mathFormula=""
     }
 
-
+    fun dotCharacter(view: View) {
+        saveText(view)
+        setBoard( this.mathFormula.plus('.') )
+    }
 }
