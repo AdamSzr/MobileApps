@@ -6,10 +6,12 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import com.github.keelar.exprk.Expressions
+import java.math.RoundingMode
+import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
     var mathFormula = "";
-
+    var equalClicked = false;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +19,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun numberEvent(view: View) {
+        if (equalClicked)
+        {
+            clearBoard(view)
+            mathFormula=""
+            equalClicked=false
+        }
         var editText =  findViewById<EditText>(R.id.editText)
         var button_select = view as Button;
         var boardNewText =  editText.text.toString().plus(button_select.text);
@@ -72,9 +80,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calculateFormula(view: View) {
+        equalClicked=true
         saveText(view)
-        setBoard( Expressions() .eval(mathFormula).toString())
-        mathFormula=""
+        val result = Expressions().eval(mathFormula).setScale(2, RoundingMode.HALF_EVEN).toString()
+        setBoard(result )
+        mathFormula=result
     }
 
     fun dotCharacter(view: View) {
