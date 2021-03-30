@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
     fun calculateFormula(view: View) {
         equalClicked=true
         saveText(view)
-        val result = Expressions().eval(mathFormula).setScale(2, RoundingMode.HALF_EVEN).toString()
+        val result = Expressions().eval(mathFormula).toString()
         setBoard(result )
         mathFormula=result
     }

@@ -1,1 +1,7 @@
-# MobileApps
+## Aplikacje mobilne -> Przedmiot w ramach 6-go semestru studiów
+
+### Opis
+* Technologia jaką wykorzystuję to: Android Studio + Kotlin.
+
+### Zadania:
+[LAB_1](https://github.com/AdamSzr/MobileApps/tree/main/Calc) - kalkulator :mag:
