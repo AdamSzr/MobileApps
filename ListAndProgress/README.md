@@ -2,6 +2,8 @@
 
 ## Opis działania.
 * Przyciski 'GO BACK' przechodzi do poprzedniego ekranu step progresu.
+* Losowanie odbywa się za pomocą funkcji <i>nextInt(from: Int, until: Int): Int </i>
+
 
 1. Widok po uruchomieniu aplikacji.
 
