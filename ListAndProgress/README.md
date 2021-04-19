@@ -29,7 +29,7 @@ Wstawienie do widoku starej listy.
 
 5. Widok danych w komponencie RecicleView:
 
-![Wyglad podstawowy aplikacji](screens/3_chars.png)
+![Wyglad podstawowy aplikacji]( screens/3_chars.png )
 
 Lazy loading (leniwe ładowanie lub on-demand loading) to technika optymalizująca ładowanie  contentu dostępnego z poziomu  aplikacji. Celem lazy loadingu jest ładowanie w danym momencie jedynie kluczowych zasobów, które w wybranej chwili mają być widoczne dla użytkownika.
 
