@@ -27,7 +27,7 @@
 
 ![Wyglad podstawowy aplikacji](screens/nested.png)
 
-5. Widok podsumowania rejestracji:
+5. Widok kodu - fragment "logowania" :
 
 ![Wyglad podstawowy aplikacji](screens/code_example.png)
 
