@@ -11,4 +11,6 @@
 
 [LAB_3](https://github.com/AdamSzr/MobileApps/tree/main/ListAndProgress) - renderowanie listy danych + obsługa progresu :white_check_mark:
 
-[LAB_5](https://github.com/AdamSzr/MobileApps/tree/main/fragmenty) - Fragmenty :mag:
+[LAB_5](https://github.com/AdamSzr/MobileApps/tree/main/fragmenty) - Fragmenty :white_check_mark:
+
+[LAB_6](https://github.com/AdamSzr/MobileApps/tree/main/BazyDanych) - Fragmenty :mag:

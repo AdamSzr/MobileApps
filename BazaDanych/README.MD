@@ -18,11 +18,13 @@
 4. Uzupełnione inputy.
 
 ![Wyglad podstawowy aplikacji](screens/add_user1.png)
+
 Wypełnienie inputów wymaganych do stworzenia nowego użytkownika.
 
 5. Widok dodanego użytkownika
 
 ![Wyglad podstawowy aplikacji](screens/add_user1_view.png)
+
 Po stworzeniu użytkownika, przenosi nas do głównego widoku, w raz z uzupełnionym nowo powstałym wpisem.
 
 6. Dodanie kolejnej osoby.
@@ -32,6 +34,7 @@ Po stworzeniu użytkownika, przenosi nas do głównego widoku, w raz z uzupełni
 7. Uzyskany widok.
 
 ![Wyglad podstawowy aplikacji](screens/add_user2_view.png)
+
 Domyślnie cursor ustawiam na 1 element w bazie danych. Zatem aby zobaczyć kolejny wpis, należało kliknąć <i>"NEXT"</i>.
 Przycisk <i>"PREVIOUS"</i> przenosi nas z powrotem do 1 użytownika (Adam'a Szreiber).
 
@@ -46,6 +49,7 @@ Przycisk <i>"PREVIOUS"</i> przenosi nas z powrotem do 1 użytownika (Adam'a Szre
 10. Pobieranie cursor'a dla tabeli użytkowników.
 
 ![Wyglad podstawowy aplikacji](screens/db_query.png)
+
 [Metoda moveToFirst()](https://developer.android.com/reference/android/database/Cursor#moveToFirst()) <i>
 "Move the cursor to the first row.
 This method will return false if the cursor is empty."</i>
@@ -101,14 +105,8 @@ Metoda insert zwraca wartość -1 gdy wystąpił błąd.
 ![Wyglad podstawowy aplikacji](screens/db_delete.png)
 
 Metoda -> execSQL(sql:String)
-<i>"Parametr sql: the SQL statement to be executed. Multiple statements separated by semicolons are not supported."</i>
-
-<i>"Execute a single SQL statement that is NOT a SELECT or any other SQL statement that returns data."</i>
+<i>"<b>Execute a single SQL statement that is NOT a SELECT or any other SQL statement that returns data. </b>"</i>
+<i>"PARAMETR sql: the SQL statement to be executed. Multiple statements separated by semicolons are not supported."</i>
 
 [execSQL - DOCS](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase#execSQL(java.lang.String))
-
-
-
-
-
 
