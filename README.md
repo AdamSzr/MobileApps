@@ -13,4 +13,4 @@
 
 [LAB_5](https://github.com/AdamSzr/MobileApps/tree/main/fragmenty) - Fragmenty :white_check_mark:
 
-[LAB_6](https://github.com/AdamSzr/MobileApps/tree/main/BazyDanych) - Fragmenty :mag:
+[LAB_6](https://github.com/AdamSzr/MobileApps/tree/main/BazyDanych) - Baza danych SQLite i kursory :mag:
