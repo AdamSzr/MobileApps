@@ -12,8 +12,10 @@
 [LAB_3](https://github.com/AdamSzr/MobileApps/tree/main/ListAndProgress) - renderowanie listy danych + obsługa progresu :white_check_mark:
 
 [LAB_5](https://github.com/AdamSzr/MobileApps/tree/main/fragmenty) - Fragmenty :white_check_mark:
-<<<<<<< HEAD
-=======
 
-[LAB_6](https://github.com/AdamSzr/MobileApps/tree/main/BazaDanych) - Baza danych SQLite i kursory :mag:
->>>>>>> b72f266b4d46b67f62964b57f4f6de034145a101
+[LAB_6](https://github.com/AdamSzr/MobileApps/tree/main/BazaDanych) - Baza danych SQLite i kursory :white_check_mark:
+
+[LAB_7](https://github.com/AdamSzr/MobileApps/tree/main/AsyncTask) - Zadania asynchroniczne :mag:
+
+
+
