@@ -24,7 +24,9 @@ If Log.isLoggable was not enabled to at least the Log.VERBOSE for the specified 
 
 * Podczas ładowania listy w do{}while(), nie jest zmieniana wartość progressBar.
 Poniżej zamieszczam tematy wyjaśniające dlaczego tak się dzieje.
+
 [StackOverflow](https://stackoverflow.com/questions/49822194/whats-message-queue-in-android)
+
 [Blog - Wpis](http://hvasconcelos.github.io/articles/Offloading-work-from-the-UI-Thread)
 
 
