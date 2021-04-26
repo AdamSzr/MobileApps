@@ -1,7 +1,7 @@
 # Lab. nr 7 - Zadania asynchroniczne
 
 ## Podstawowe informacje.
-* zaimplementowałem własną implementację klasy [MyTimingLogger](app/src/main/java/com/example/asynctask/MyTimingLogger.kt), posiadającą dokładnie te same funkcjnalności które udostępnia nam <b>TimingLogger</b>.
+* Stworzyłem własną implementację klasy [MyTimingLogger](app/src/main/java/com/example/asynctask/MyTimingLogger.kt), posiadającą dokładnie te same funkcjnalności które udostępnia nam <b>TimingLogger</b>.
 Ponieważ klasa [TimingLogger](https://developer.android.com/reference/android/util/TimingLogger) - wymagała do działania Log.VERBOSE = true
 ```
 public void dumpToLog ()
