@@ -66,8 +66,9 @@ class MyTimingLogger() {
 
     public  fun reset(newLabel:String)
     {
-        this.label=newLabel
+        this.label = newLabel
         this.timeLaps = mutableListOf<TimeLaps>()
+        this.lastStop = 0
     }
 
     private fun getTimeElapsed():Long{
