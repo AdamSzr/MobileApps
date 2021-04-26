@@ -35,6 +35,7 @@ Gdy chcemy zaktualizować pasek na UI thread (wersja synchroniczna) nie uda nam 
 
 
 6. Różnice w czasie
+
 ![Wyglad podstawowy aplikacji](screens/compare_times.png)
 - Różnica jest na niekożyść AsyncTask, prawdopodobnie z powodu słabego sprzętu (stworzenie objektu AsyncTask oraz uruchomienie zadania - również wymaga czasu procesora) i krótkiej operacji - szybkie jedno query do lokalnej bazy danych. Natomiast AsyncTask daje przewagę, iż nie blokuje UI Thread - responsywność (przewijanie listy/klikanie przycisków-checkboxów itd.) dalej jest zachowana.
 
