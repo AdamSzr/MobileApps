@@ -15,7 +15,7 @@
 
 [LAB_6](https://github.com/AdamSzr/MobileApps/tree/main/BazaDanych) - Baza danych SQLite i kursory :white_check_mark:
 
-[LAB_7](https://github.com/AdamSzr/MobileApps/tree/main/AsyncTask) - Zadania asynchroniczne :mag:
+[LAB_7](https://github.com/AdamSzr/MobileApps/tree/main/AsyncTask) - Zadania asynchroniczne :white_check_mark:
 
 
 
